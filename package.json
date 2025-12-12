@@ -1,0 +1,43 @@
+{
+  "name": "verstaem-whirl",
+  "version": "1.0.0",
+  "description": "A landing page",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --host --open",
+    "lint": "eslint --ext .js ./",
+    "lint:fix": "eslint --fix --ext .js ./",
+    "format": "prettier --write \"./**/*.{js,jsx,json,css}\"",
+    "build": "vite build",
+    "preview": "vite preview --open",
+    "buildpreview": "vite build && vite preview --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leeroykahikki/verstaem-whirl.git"
+  },
+  "author": "Leeroyka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leeroykahikki/verstaem-whirl/issues"
+  },
+  "homepage": "https://github.com/leeroykahikki/verstaem-whirl#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "autoprefixer": "^10.4.22",
+    "cssnano": "^7.1.2",
+    "eslint": "^9.39.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-prettier": "^5.5.4",
+    "globals": "^16.5.0",
+    "postcss": "^8.5.6",
+    "prettier": "^3.7.4",
+    "vite": "^7.2.7",
+    "vite-plugin-eslint": "^1.8.1"
+  },
+  "dependencies": {
+    "the-new-css-reset": "^1.11.3"
+  }
+}
